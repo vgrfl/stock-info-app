@@ -10,7 +10,6 @@ try:
     sp500_df = read_SP500()
 except:
     st.exception(RuntimeError("Failed to Load the Required local Dataset"))
-    exit()
 
 
 pg1_title = "Symbol list of S&P500 stocks"
